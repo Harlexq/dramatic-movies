@@ -1,0 +1,268 @@
+/*
+    Serhan Bakır
+    Junior Web Developer
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 40px;
+    width: 15%;
+    background-color: rgba(33, 33, 33, 0.50);
+}
+
+.aside .nav .navbar-brand a {
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.aside .nav .navbar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.aside .nav .navbar p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.aside .nav .navbar .nav-item {
+    color: #d8d8d8;
+    padding: 10px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.aside .nav .navbar .nav-item p {
+    color: #b8b8b8;
+}
+
+.aside .nav .navbar .nav-item:hover,
+.aside .nav .navbar .nav-item:hover p {
+    color: #fff;
+}
+
+.aside .nav .navbar .nav-item .active {
+    color: #fff;
+    font-weight: 600;
+}
+
+.aside .nav .navbar .nav-item i {
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout .logout-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    font-weight: 600;
+}
+
+.main {
+    padding: 20px 40px;
+    max-width: 85%;
+    width: 100%;
+}
+
+.main .header .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .header .nav .search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.main .header .nav .search input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 18px;
+    padding: 5px 34px 5px 15px;
+    border-radius: 15px;
+    color: #fff;
+    width: 300px;
+    caret-color: #000;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.main .header .nav .search input::placeholder {
+    font-size: 18px;
+    color: #fff;
+}
+
+.main .header .nav .search input:focus {
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.main .header .nav .search i {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: not-allowed;
+    position: absolute;
+    right: 0;
+}
+
+.main .header .nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+.main .header .nav .profile button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.main .header .nav .profile .happy-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+
+.main .header .nav .profile .profil-btn {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.main .header .nav .profile .profil-btn i {
+    font-size: 21px;
+}
+
+.main .slider {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main .slider img {
+    border-radius: 30px;
+    width: 903px;
+    max-width: 100%;
+}
+
+.main .slider .slider-text {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+
+.main .slider .slider-text h2 {
+    font-size: 50px;
+}
+
+.main .slider .slider-text p {
+    font-size: 30px;
+}
+
+.main .movies .movies-inner .movies-title {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .movies .movies-inner .movies-title h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.main .movies .movies-inner .movies-title a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.main .movies .movies-inner .movies-content {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.main .movies .movies-inner .movies-content .movies-item {
+    border-radius: 10px;
+}
+
+.main .movies .movies-inner .movies-content .movies-item img {
+    width: 158px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.main .movies .movies-inner .movies-content .movies-item img:hover {
+    transform: scale(1.1);
+}
