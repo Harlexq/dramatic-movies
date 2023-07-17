@@ -22,6 +22,46 @@
             <?php
             include('pages/common/header.php');
             ?>
+            <section class="movies">
+                <div class="movies-inner">
+                    <div class="movies-title">
+                        <h2>Movies</h2>
+                        <a href="movies.php">See all</a>
+                    </div>
+                    <div class="movies-content">
+                        <?php
+                        for ($i = 0; $i < 5; $i++) {
+                        ?>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/mrrobot.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/aquaman.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/spiderman.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/whoamı.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/harryppoter.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/mrrobot.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/aquaman.jpg" alt="">
+                            </a>
+                            <a href="#" class="movies-item">
+                                <img src="assets/img/spiderman.jpg" alt="">
+                            </a>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 

@@ -22,15 +22,12 @@ ol {
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: rgba(55, 79, 253, 0.50);
+    height: 100vh;
 }
 
 .container {
     display: flex;
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
 }
 
 .aside {
@@ -40,6 +37,9 @@ body {
     padding: 30px 40px;
     width: 15%;
     background-color: rgba(33, 33, 33, 0.50);
+    height: 100vh;
+    position: sticky;
+    top: 0;
 }
 
 .aside .nav .navbar-brand a {
@@ -73,6 +73,9 @@ body {
     display: flex;
     align-items: center;
     column-gap: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .aside .nav .navbar .nav-item p {

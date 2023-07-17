@@ -51,6 +51,15 @@
                         <a href="#" class="movies-item">
                             <img src="assets/img/harryppoter.jpg" alt="">
                         </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/mrrobot.jpg" alt="">
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/aquaman.jpg" alt="">
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/spiderman.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </section>

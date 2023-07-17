@@ -25,14 +25,14 @@
         </menu>
         <menu class="navbar">
             <p>Account</p>
-            <a class="nav-item" href="#">
+            <button type="button" class="nav-item">
                 <i class="fa-solid fa-user"></i>
                 <p>Goldwin</p>
-            </a>
-            <a class="nav-item" href="#">
+            </button>
+            <button type="button" class="nav-item">
                 <i class="active fa-regular fa-user"></i>
                 <p class="active">Harlex</p>
-            </a>
+            </button>
         </menu>
     </nav>
     <div class="logout">
