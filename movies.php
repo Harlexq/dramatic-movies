@@ -48,13 +48,13 @@
                                 <img src="assets/img/harryppoter.jpg" alt="">
                             </a>
                             <a href="#" class="movies-item">
-                                <img src="assets/img/mrrobot.jpg" alt="">
+                                <img src="assets/img/vforvandetta.jpg" alt="">
                             </a>
                             <a href="#" class="movies-item">
-                                <img src="assets/img/aquaman.jpg" alt="">
+                                <img src="assets/img/hizliveofkeli.jpg" alt="">
                             </a>
                             <a href="#" class="movies-item">
-                                <img src="assets/img/spiderman.jpg" alt="">
+                                <img src="assets/img/lucy.jpg" alt="">
                             </a>
                         <?php
                         }

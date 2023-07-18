@@ -22,3 +22,13 @@ function Logout() {
     document.body.style.overflow = 'hidden';
     document.body.style.backgroundColor = 'black';
 }
+
+setInterval(function () {
+    var moviesCarousel = document.querySelector('.movies-content');
+    var moviesItems = moviesCarousel.getElementsByClassName('movies-item');
+
+    for (var i = moviesItems.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        moviesCarousel.insertBefore(moviesItems[j], moviesItems[i]);
+    }
+}, 25000);

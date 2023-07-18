@@ -26,10 +26,6 @@
         <menu class="navbar">
             <p>Account</p>
             <button type="button" class="nav-item">
-                <i class="fa-solid fa-user"></i>
-                <p>Goldwin</p>
-            </button>
-            <button type="button" class="nav-item">
                 <i class="active fa-regular fa-user"></i>
                 <p class="active">Harlex</p>
             </button>
