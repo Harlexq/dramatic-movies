@@ -1,5 +1,5 @@
 /*
-    Serhan Bakır
+    Serhan BakÄ±r
     Junior Web Developer
 */
 
@@ -26,6 +26,25 @@ body {
     height: 100vh;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.74);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 .container {
     display: flex;
 }
@@ -47,7 +66,6 @@ body {
     color: #fff;
     font-size: 25px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
-    margin: 10px 0;
     padding: 10px 0;
     width: 100%;
 }
@@ -56,13 +74,12 @@ body {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid rgba(255, 255, 255, 0.50);
-    margin: 10px 0;
     padding: 10px 0;
 }
 
 .aside .nav .navbar p {
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -93,8 +110,8 @@ body {
 }
 
 .aside .nav .navbar .nav-item i {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     font-size: 25px;
 }
 
@@ -185,6 +202,9 @@ body {
 .main .header .nav .profile .happy-btn {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
 }
 
 .main .header .nav .profile .profil-btn {
@@ -194,7 +214,7 @@ body {
 }
 
 .main .header .nav .profile .profil-btn i {
-    font-size: 21px;
+    font-size: 16px;
 }
 
 .main .slider {
@@ -207,7 +227,7 @@ body {
 
 .main .slider img {
     border-radius: 30px;
-    width: 1077px;
+    width: 1085px;
     max-width: 100%;
 }
 
@@ -256,7 +276,7 @@ body {
 
 .main .movies .movies-inner .movies-content .movies-item {
     border-radius: 10px;
-    width: 158px;
+    width: 150px;
     height: 200px;
     overflow: hidden;
 }
@@ -270,4 +290,61 @@ body {
 
 .main .movies .movies-inner .movies-content .movies-item img:hover {
     transform: scale(1.1);
+}
+
+.quit {
+    position: absolute;
+    z-index: 80;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.quit.show {
+    display: grid;
+}
+
+.quit .quit-inner {
+    background: #ffffff9e;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.quit .quit-inner .quit-title {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.quit .quit-inner .quit-title i {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+.quit .quit-inner .quit-body {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quit .quit-inner .quit-footer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quit .quit-inner .quit-footer button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 600;
 }

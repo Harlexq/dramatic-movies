@@ -36,6 +36,22 @@
         </menu>
     </nav>
     <div class="logout">
-        <button type="button" class="logout-btn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log Out</button>
+        <button onclick="Logout()" type="button" class="logout-btn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log Out</button>
     </div>
 </aside>
+
+<div class="quit">
+    <div class="quit-inner">
+        <div class="quit-title">
+            <p>Harlex</p>
+            <i onclick="Quit()" class="fa-solid fa-x"></i>
+        </div>
+        <div class="quit-body">
+            <p>Heyy, Harlex Çıkış Yapmak İstediğine Emin Misin ?</p>
+        </div>
+        <div class="quit-footer">
+            <button onclick="Quit()" type="button" class="quit-none-btn">İptal</button>
+            <button onclick="Quit()" type="button" class="quit-logout-btn">Çıkış Yap</button>
+        </div>
+    </div>
+</div>
