@@ -2,7 +2,7 @@
     <nav class="nav">
         <div class="navbar-brand">
             <a href="index.php">
-                <h1 class="logo">GII</h1>
+                <h1 class="logo"><i class="fa-solid fa-mug-hot"></i>GII</h1>
             </a>
         </div>
         <menu class="navbar">
@@ -14,9 +14,9 @@
                 <i class="<?php if (basename($_SERVER['PHP_SELF']) == 'movies.php') echo 'active'; ?> fa-solid fa-clapperboard"></i>
                 <p class="<?php if (basename($_SERVER['PHP_SELF']) == 'movies.php') echo 'active'; ?>">Movies</p>
             </a>
-            <a class="nav-item" href="series.php">
-                <i class="<?php if (basename($_SERVER['PHP_SELF']) == 'series.php') echo 'active'; ?> fa-solid fa-gear"></i>
-                <p class="<?php if (basename($_SERVER['PHP_SELF']) == 'series.php') echo 'active'; ?>">Series</p>
+            <a class="nav-item" href="trending.php">
+                <i class="<?php if (basename($_SERVER['PHP_SELF']) == 'trending.php') echo 'active'; ?> fa-solid fa-chart-line"></i>
+                <p class="<?php if (basename($_SERVER['PHP_SELF']) == 'trending.php') echo 'active'; ?>">Trending</p>
             </a>
             <a class="nav-item" href="favourite.php">
                 <i class="<?php if (basename($_SERVER['PHP_SELF']) == 'favourite.php') echo 'active'; ?> fa-regular fa-heart"></i>

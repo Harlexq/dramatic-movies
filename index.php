@@ -31,57 +31,57 @@
             </section>
             <section class="movies">
                 <div class="movies-inner">
-                    <div class="movies-title">
-                        <h2>Movies</h2>
-                        <a href="movies.php">See all</a>
+                    <div class="page-title">
+                        <h2>Trending</h2>
+                        <a href="trending.php">See all</a>
                     </div>
                     <div class="movies-content">
                         <a href="#" class="movies-item">
                             <img src="assets/img/mrrobot.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/aquaman.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/spiderman.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/whoamı.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/harryppoter.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/vforvandetta.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/hizliveofkeli.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                         <a href="#" class="movies-item">
                             <img src="assets/img/lucy.jpg" alt="">
                             <div class="favorite">
-                                <i class="fa-regular fa-bookmark"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                         </a>
                     </div>

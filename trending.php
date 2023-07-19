@@ -22,6 +22,14 @@
             <?php
             include('pages/common/header.php');
             ?>
+            <section class="series">
+                <div class="series-inner">
+                    <div class="page-title">
+                        <h2>Trending</h2>
+                    </div>
+                    
+                </div>
+            </section>
         </div>
     </div>
 

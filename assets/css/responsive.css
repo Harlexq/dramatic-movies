@@ -56,17 +56,17 @@
         font-size: 20px;
     }
 
-    .main .header .nav .profile button {
+    .main .header .nav .user button {
         padding: 8px;
     }
 
-    .main .movies .movies-inner .movies-title h2 {
+    .main .movies .movies-inner .page-title h2 {
         font-size: 25px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .main .header .nav .profile .happy-btn {
+    .main .header .nav .user .happy-btn {
         display: none;
     }
 

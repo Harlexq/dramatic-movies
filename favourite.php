@@ -22,6 +22,63 @@
             <?php
             include('pages/common/header.php');
             ?>
+            <section class="movies">
+                <div class="movies-inner">
+                    <div class="page-title">
+                        <h2>Favourite</h2>
+                    </div>
+                    <div class="movies-content">
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/mrrobot.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/aquaman.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/spiderman.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/whoamı.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/harryppoter.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/vforvandetta.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/hizliveofkeli.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="movies-item">
+                            <img src="assets/img/lucy.jpg" alt="">
+                            <div class="favorite show">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 
