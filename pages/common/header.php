@@ -2,7 +2,7 @@
     <div class="header-inner">
         <div class="header-item">
             <div class="navbar-brand">
-                <img src="assets/img/logo.png" alt="">
+                <a href="index.php"><img src="assets/img/logo.png" alt=""></a>
             </div>
             <menu class="navbar">
                 <a href="index.php" class="navbar-item <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>">HOME</a>
@@ -12,9 +12,6 @@
             </menu>
         </div>
         <div class="header-item-two">
-            <div class="navbar-search">
-                <input type="text" placeholder="SEARCH">
-            </div>
             <menu class="navbar">
                 <button type="button" class="navbar-btn"><i class="bi bi-gift"></i></button>
                 <button type="button" class="navbar-btn"><i class="bi bi-bell"></i></button>

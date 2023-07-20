@@ -2,7 +2,47 @@
     Serhan Bakır
     Junior Web Developer
 */
+@media only screen and (max-width: 1300px) {
+    .slider .slider-inner .slider-content {
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: rgb(219 219 219);
+        width: 100%;
+        padding: 30px 90px;
+        border-radius: 5px;
+    }
 
-@media only screen and (max-width: 800px) {}
+    .slider .slider-inner .slider-content p {
+        color: #000;
+    }
+}
 
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 800px) {
+    .rectangle .rectangle-inner {
+        row-gap: 20px;
+        width: 50px;
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .slider .slider-inner .slider-content .slider-desc {
+        width: 310px;
+    }
+
+    .slider .slider-inner .slider-content span {
+        margin-top: 20px;
+    }
+
+    .slider .slider-inner .slider-content .slider-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    .slider .slider-inner .slider-content .slider-btn button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
