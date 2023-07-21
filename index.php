@@ -91,7 +91,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container-right">
         <div class="watch">
             <div class="watch-inner">
                 <div class="watch-title">
@@ -101,7 +101,9 @@
                 <div class="watch-movies">
                     <div class="watch-movies-inner">
                         <a href="#" class="watch-movies-item">
-                            <img src="assets/img/movies/kumbalangi-nights.jpg" alt="">
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/kumbalangi-nights.jpg" alt="">
+                            </div>
                             <h3>Kumbalangi Nights</h3>
                             <span>2019</span>
                             <div class="movies-info">
@@ -110,73 +112,93 @@
                                     <p>8.6</p>
                                 </div>
                                 <div class="movies-intr">
-                                    <p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <path d="M0.708344 7.99999C0.708344 7.99999 3.54168 2.66666 8.50001 2.66666C13.4583 2.66666 16.2917 7.99999 16.2917 7.99999C16.2917 7.99999 13.4583 13.3333 8.50001 13.3333C3.54168 13.3333 0.708344 7.99999 0.708344 7.99999Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M8.5 10C9.6736 10 10.625 9.10457 10.625 8C10.625 6.89543 9.6736 6 8.5 6C7.32639 6 6.375 6.89543 6.375 8C6.375 9.10457 7.32639 10 8.5 10Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </p>
-                                    <p><i class="fa-solid fa-heart"></i></p>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-heart"></i>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="watch-movies-item">
-                            <img src="assets/img/movies/kumbalangi-nights.jpg" alt="">
-                            <h3>Kumbalangi Nights</h3>
-                            <span>2019</span>
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/lunchbox.jpg" alt="">
+                            </div>
+                            <h3>The Lunchbox</h3>
+                            <span>2013</span>
                             <div class="movies-info">
                                 <div class="movies-signature">
                                     <img src="assets/img/imdb.png" alt="">
-                                    <p>8.6</p>
+                                    <p>7.7</p>
                                 </div>
                                 <div class="movies-intr">
-                                    <p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <path d="M0.708344 7.99999C0.708344 7.99999 3.54168 2.66666 8.50001 2.66666C13.4583 2.66666 16.2917 7.99999 16.2917 7.99999C16.2917 7.99999 13.4583 13.3333 8.50001 13.3333C3.54168 13.3333 0.708344 7.99999 0.708344 7.99999Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M8.5 10C9.6736 10 10.625 9.10457 10.625 8C10.625 6.89543 9.6736 6 8.5 6C7.32639 6 6.375 6.89543 6.375 8C6.375 9.10457 7.32639 10 8.5 10Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </p>
-                                    <p><i class="fa-solid fa-heart"></i></p>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="active fa-solid fa-heart"></i>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="watch-movies-item">
-                            <img src="assets/img/movies/kumbalangi-nights.jpg" alt="">
-                            <h3>Kumbalangi Nights</h3>
-                            <span>2019</span>
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/haider.jpg" alt="">
+                            </div>
+                            <h3>Haider</h3>
+                            <span>2014</span>
                             <div class="movies-info">
                                 <div class="movies-signature">
                                     <img src="assets/img/imdb.png" alt="">
-                                    <p>8.6</p>
+                                    <p>8.4</p>
                                 </div>
                                 <div class="movies-intr">
-                                    <p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <path d="M0.708344 7.99999C0.708344 7.99999 3.54168 2.66666 8.50001 2.66666C13.4583 2.66666 16.2917 7.99999 16.2917 7.99999C16.2917 7.99999 13.4583 13.3333 8.50001 13.3333C3.54168 13.3333 0.708344 7.99999 0.708344 7.99999Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M8.5 10C9.6736 10 10.625 9.10457 10.625 8C10.625 6.89543 9.6736 6 8.5 6C7.32639 6 6.375 6.89543 6.375 8C6.375 9.10457 7.32639 10 8.5 10Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </p>
-                                    <p><i class="fa-solid fa-heart"></i></p>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="active fa-solid fa-heart"></i>
                                 </div>
                             </div>
                         </a>
                         <a href="#" class="watch-movies-item">
-                            <img src="assets/img/movies/kumbalangi-nights.jpg" alt="">
-                            <h3>Kumbalangi Nights</h3>
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/aamis.jpg" alt="">
+                            </div>
+                            <h3>Aamis</h3>
                             <span>2019</span>
                             <div class="movies-info">
                                 <div class="movies-signature">
                                     <img src="assets/img/imdb.png" alt="">
-                                    <p>8.6</p>
+                                    <p>8.0</p>
                                 </div>
                                 <div class="movies-intr">
-                                    <p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
-                                            <path d="M0.708344 7.99999C0.708344 7.99999 3.54168 2.66666 8.50001 2.66666C13.4583 2.66666 16.2917 7.99999 16.2917 7.99999C16.2917 7.99999 13.4583 13.3333 8.50001 13.3333C3.54168 13.3333 0.708344 7.99999 0.708344 7.99999Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                            <path d="M8.5 10C9.6736 10 10.625 9.10457 10.625 8C10.625 6.89543 9.6736 6 8.5 6C7.32639 6 6.375 6.89543 6.375 8C6.375 9.10457 7.32639 10 8.5 10Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </p>
-                                    <p><i class="fa-solid fa-heart"></i></p>
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="watch-movies-item">
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/court.jpg" alt="">
+                            </div>
+                            <h3>Court</h3>
+                            <span>2014</span>
+                            <div class="movies-info">
+                                <div class="movies-signature">
+                                    <img src="assets/img/imdb.png" alt="">
+                                    <p>7.6</p>
+                                </div>
+                                <div class="movies-intr">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="active fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="watch-movies-item">
+                            <div class="movies-img-body">
+                                <img class="movies-img" src="assets/img/movies/masaan.jpg" alt="">
+                            </div>
+                            <h3>Masaan</h3>
+                            <span>2015</span>
+                            <div class="movies-info">
+                                <div class="movies-signature">
+                                    <img src="assets/img/imdb.png" alt="">
+                                    <p>8.1</p>
+                                </div>
+                                <div class="movies-intr">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <i class="active fa-solid fa-heart"></i>
                                 </div>
                             </div>
                         </a>
