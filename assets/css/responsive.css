@@ -10,7 +10,6 @@
         background-color: rgb(219 219 219);
         width: 100%;
         padding: 30px 61px;
-        border-radius: 5px;
     }
 
     .slider .slider-inner .slider-content p {
@@ -60,9 +59,9 @@
     .header .header-inner .header-item-two .navbar .navbar-btn i {
         font-size: 17px;
     }
-    
+
     .slider {
-        padding-top: 55px;
+        padding-top: 80px;
     }
 }
 
