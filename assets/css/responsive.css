@@ -9,7 +9,7 @@
         left: 0;
         background-color: rgb(219 219 219);
         width: 100%;
-        padding: 30px 90px;
+        padding: 30px 61px;
         border-radius: 5px;
     }
 
@@ -19,6 +19,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .header .header-inner {
+        height: 55px;
+    }
+
+    .header .header-inner .header-item .navbar {
+        display: none;
+    }
+
     .rectangle .rectangle-inner {
         row-gap: 20px;
         width: 50px;
@@ -42,6 +50,19 @@
 
     .watch .watch-inner .watch-filter .watch-filter-item {
         width: 31%;
+    }
+
+    .header .header-inner .header-item-two .navbar .navbar-btn img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header .header-inner .header-item-two .navbar .navbar-btn i {
+        font-size: 17px;
+    }
+    
+    .slider {
+        padding-top: 55px;
     }
 }
 

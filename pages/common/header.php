@@ -1,9 +1,9 @@
 <header class="header">
     <div class="header-inner">
         <div class="header-item">
-            <div class="navbar-brand">
-                <a href="index.php"><img src="assets/img/logo.png" alt=""></a>
-            </div>
+            <a href="index.php" class="navbar-brand">
+                <img src="assets/img/logo.png" alt="">
+            </a>
             <menu class="navbar">
                 <a href="index.php" class="navbar-item <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>">HOME</a>
                 <a href="twshow.php" class="navbar-item <?php if (basename($_SERVER['PHP_SELF']) == 'twshow.php') echo 'active'; ?>">TV SHOW</a>
