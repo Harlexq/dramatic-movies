@@ -24,6 +24,25 @@
         width: 50px;
         height: 225px;
     }
+
+    .footer .footer-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-inner .footer-menu,
+    .footer .footer-inner .footer-language {
+        padding: 20px 0;
+    }
+
+    .footer .footer-inner .footer-menu,
+    .footer .footer-inner .footer-language {
+        width: 50%;
+    }
+
+    .watch .watch-inner .watch-filter .watch-filter-item {
+        width: 31%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
