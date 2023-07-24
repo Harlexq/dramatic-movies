@@ -35,6 +35,51 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="bell-content">
+                            <div class="bell">
+                                <div class="bell-info">
+                                    <img src="assets/img/bell/masaan.jpg" alt="">
+                                    <div class="bell-info-text">
+                                        <p>Masaan</p>
+                                        <span>Masaan Released Watch Now</span>
+                                    </div>
+                                </div>
+                                <div class="bell-delete">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bell-content">
+                            <div class="bell">
+                                <div class="bell-info">
+                                    <img src="assets/img/bell/masaan.jpg" alt="">
+                                    <div class="bell-info-text">
+                                        <p>Masaan</p>
+                                        <span>Masaan Released Watch Now</span>
+                                    </div>
+                                </div>
+                                <div class="bell-delete">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bell-content">
+                            <div class="bell">
+                                <div class="bell-info">
+                                    <img src="assets/img/bell/masaan.jpg" alt="">
+                                    <div class="bell-info-text">
+                                        <p>Masaan</p>
+                                        <span>Masaan Released Watch Now</span>
+                                    </div>
+                                </div>
+                                <div class="bell-delete">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="bell-footer">
+                            <p>Tümünü Okundu Olarak İşaretle</p>
+                        </footer>
                     </div>
                 </div>
                 <button type="button" class="navbar-btn">
