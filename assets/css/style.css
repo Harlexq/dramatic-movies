@@ -648,7 +648,8 @@ body {
     color: #fff;
     width: 35px;
     height: 35px;
-    transition: 0.3s;
+    transition: color 0.3s ease-in-out;
+    transition-duration: 1s;
 }
 
 .footer .footer-inner .footer-menu .social-nav .social-btn:hover {
