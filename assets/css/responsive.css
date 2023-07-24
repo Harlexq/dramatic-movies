@@ -98,6 +98,10 @@
         width: 20px;
         height: 20px;
     }
+
+    .watch .watch-inner .watch-movies .watch-movies-inner {
+        justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 500px) {

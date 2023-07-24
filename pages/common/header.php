@@ -15,6 +15,28 @@
             <menu class="navbar">
                 <button type="button" class="navbar-btn"><i class="bi bi-gift"></i></button>
                 <button type="button" class="navbar-btn"><i class="bi bi-bell"></i></button>
+                <div class="bell-body">
+                    <div class="bell-inner">
+                        <div class="bell-title">
+                            <p>Harlex</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="bell-content">
+                            <div class="bell">
+                                <div class="bell-info">
+                                    <img src="assets/img/bell/masaan.jpg" alt="">
+                                    <div class="bell-info-text">
+                                        <p>Masaan</p>
+                                        <span>Masaan Released Watch Now</span>
+                                    </div>
+                                </div>
+                                <div class="bell-delete">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <button type="button" class="navbar-btn">
                     <img src="assets/img/SerhanBakir.jpg" alt="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">

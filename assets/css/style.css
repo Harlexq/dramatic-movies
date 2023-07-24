@@ -1,5 +1,5 @@
 /*
-    Serhan Bakır
+    Serhan BakÄ±r
     Junior Web Developer
 */
 
@@ -91,6 +91,69 @@ body {
     column-gap: 20px;
 }
 
+.header .header-inner .header-item-two .navbar .bell-body {
+    position: absolute;
+    top: 45px;
+    right: 102px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner {
+    width: 327px;
+    height: 500px;
+    background-color: rgba(84, 54, 168, 0.70);
+    border-radius: 7px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title p {
+    color: #000;
+    font-weight: 600;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title i {
+    font-size: 21px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell .bell-info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell .bell-info .bell-info-text p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell .bell-info .bell-info-text span {
+    font-size: 12px;
+    color: #eee;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell .bell-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content .bell .bell-delete i {
+    font-size: 20px;
+}
+
 .header .header-inner .header-item-two .navbar .navbar-btn {
     background-color: transparent;
     cursor: pointer;
@@ -128,9 +191,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 35px;
-    width: 70px;
-    height: 280px;
+    row-gap: 20px;
+    width: 60px;
+    height: 220px;
     border-radius: 0 26px 26px 0;
     background: linear-gradient(48deg, #130B29 0%, #5436A9 100%, #5E47A1 100%);
 }
@@ -213,10 +276,20 @@ body {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
+    transition: 0.3s;
+}
+
+.slider .slider-inner .slider-content .slider-btn button:hover {
+    background: #6744c9;
 }
 
 .slider .slider-inner .slider-content .slider-btn button:last-child {
     background: #5C5C5C;
+    transition: 0.3s;
+}
+
+.slider .slider-inner .slider-content .slider-btn button:last-child:hover {
+    background: #777777;
 }
 
 .slider .slider-inner .slider-content .slider-btn button i {
@@ -338,8 +411,6 @@ body {
 
 .watch .watch-inner .watch-movies {
     padding: 21px 0 14px;
-    display: flex;
-    justify-content: center;
 }
 
 .watch .watch-inner .watch-movies .watch-movies-inner {
@@ -347,7 +418,7 @@ body {
     align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .watch .watch-inner .watch-movies .watch-movies-inner .watch-movies-item {
@@ -468,6 +539,11 @@ body {
     justify-content: center;
     column-gap: 10px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.showmore .showmore-btn:hover {
+    background-color: #6744c9;
 }
 
 .footer {
@@ -536,19 +612,38 @@ body {
 }
 
 .footer .footer-inner .footer-menu .social-nav .social-btn {
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     border: 1px solid #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.footer .footer-inner .footer-menu .social-nav .social-btn {
     color: #fff;
     width: 35px;
     height: 35px;
+    transition: 0.3s;
+}
+
+.footer .footer-inner .footer-menu .social-nav .social-btn:hover {
+    color: #000;
+}
+
+.footer .footer-inner .footer-menu .social-nav .social-btn::before {
+    content: "";
+    background-color: #fff;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.footer .footer-inner .footer-menu .social-nav .social-btn:hover::before {
+    width: 25px;
+    height: 25px;
+}
+
+.footer .footer-inner .footer-menu .social-nav .social-btn i {
+    z-index: 999;
 }
 
 .copyright {
