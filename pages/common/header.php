@@ -88,6 +88,29 @@
                         <circle cx="7" cy="7" r="6" fill="#3BFF37" stroke="white" stroke-width="2" />
                     </svg>
                 </button>
+                <div class="profile-body">
+                    <div class="profile-inner">
+                        <div class="profile-title">
+                            <p>Harlex</p>
+                        </div>
+                        <div class="profile-content">
+                            <div class="profile-content-inner">
+                                <menu class="profile-menu">
+                                    <nav class="profile-nav">
+                                        <a href="#" class="profile-item">Profil Düzenle</a>
+                                        <a href="#" class="profile-item"></a>
+                                        <a href="#" class="profile-item"></a>
+                                        <a href="#" class="profile-item"></a>
+                                        <a href="#" class="profile-item"></a>
+                                    </nav>
+                                </menu>
+                            </div>
+                        </div>
+                        <footer class="profile-footer">
+
+                        </footer>
+                    </div>
+                </div>
             </menu>
         </div>
     </div>

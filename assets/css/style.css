@@ -207,6 +207,32 @@ body {
     border: 2px solid #fff;
 }
 
+.header .header-inner .header-item-two .navbar .profile-body {
+    position: absolute;
+    top: 34px;
+    right: 60px;
+}
+
+.header .header-inner .header-item-two .navbar .profile-body .profile-inner {
+    width: 327px;
+    background-color: #5436A9;
+    border-radius: 7px;
+}
+
+.header .header-inner .header-item-two .navbar .profile-body .profile-inner .profile-title {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.header .header-inner .header-item-two .navbar .profile-body .profile-inner .profile-content .profile-content-inner .profile-menu .profile-nav .profile-item {
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
 .rectangle {
     position: fixed;
     top: 120px;
