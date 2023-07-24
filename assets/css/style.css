@@ -1,5 +1,5 @@
 /*
-    Serhan BakÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±r
+    Serhan Bakır
     Junior Web Developer
 */
 
@@ -279,7 +279,11 @@ body {
     font-weight: 600;
 }
 
-.watch .watch-inner .watch-title .filter-btn {
+.watch .watch-inner .watch-title .filter-btn-content {
+    position: relative;
+}
+
+.watch .watch-inner .watch-title .filter-btn-content .filter-btn {
     border: none;
     border-radius: 7px;
     background: #5C5C5C;
@@ -290,13 +294,12 @@ body {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    position: relative;
 }
 
 .watch .watch-inner .watch-title .filters {
     position: absolute;
-    bottom: -135px;
-    right: 85px;
+    top: 35px;
+    left: 0;
     width: 159px;
     z-index: 999;
     display: none;
@@ -480,7 +483,6 @@ body {
 .footer .footer-inner .footer-menu,
 .footer .footer-inner .footer-language {
     padding: 95px 0 45px;
-    flex: 0 1 0;
 }
 
 .footer .footer-inner .footer-language button {

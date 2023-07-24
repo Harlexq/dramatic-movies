@@ -1,5 +1,11 @@
 {
+  "name": "dramatic-movies",
+  "version": "1.0.0",
+  "description": "Dramatic Named Movie Site",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap-icons": "^1.10.5"
-  }
+  },
+  "author": "Harlex",
+  "license": "MIT"
 }
