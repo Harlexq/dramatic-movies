@@ -98,16 +98,18 @@
                                 <menu class="profile-menu">
                                     <nav class="profile-nav">
                                         <a href="#" class="profile-item">Profil Düzenle</a>
-                                        <a href="#" class="profile-item"></a>
-                                        <a href="#" class="profile-item"></a>
-                                        <a href="#" class="profile-item"></a>
-                                        <a href="#" class="profile-item"></a>
+                                        <a href="#" class="profile-item">Favoriler</a>
+                                        <a href="#" class="profile-item">Arkadaşlar</a>
+                                        <a href="#" class="profile-item">Yardım</a>
                                     </nav>
                                 </menu>
                             </div>
                         </div>
                         <footer class="profile-footer">
-
+                            <a href="#" class="profile-footer-item">Hakkında</a>
+                            <a href="#" class="profile-footer-item">Uygulamalar</a>
+                            <a href="#" class="profile-footer-item">Hukuki</a>
+                            <a href="#" class="profile-footer-item">Gizlilik</a>
                         </footer>
                     </div>
                 </div>
