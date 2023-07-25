@@ -93,18 +93,14 @@
                         <div class="profile-title">
                             <p>Harlex</p>
                         </div>
-                        <div class="profile-content">
-                            <div class="profile-content-inner">
-                                <menu class="profile-menu">
-                                    <nav class="profile-nav">
-                                        <a href="#" class="profile-item">Profil Düzenle</a>
-                                        <a href="#" class="profile-item">Favoriler</a>
-                                        <a href="#" class="profile-item">Arkadaşlar</a>
-                                        <a href="#" class="profile-item">Yardım</a>
-                                    </nav>
-                                </menu>
-                            </div>
-                        </div>
+                        <menu class="profile-content">
+                            <nav class="profile-nav">
+                                <a href="#" class="profile-item">Profil Düzenle</a>
+                                <a href="#" class="profile-item">Favoriler</a>
+                                <a href="#" class="profile-item">Arkadaşlar</a>
+                                <a href="#" class="profile-item">Yardım</a>
+                            </nav>
+                        </menu>
                         <footer class="profile-footer">
                             <a href="#" class="profile-footer-item">Hakkında</a>
                             <a href="#" class="profile-footer-item">Uygulamalar</a>
