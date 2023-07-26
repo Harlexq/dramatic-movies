@@ -59,12 +59,107 @@
     <div class="container">
         <div class="twshow">
             <div class="twshow-inner">
-                <div class="">
-                    <div class="">
-
+                <div class="twshow-content">
+                    <div class="trailer">
+                        <div class="trailer-title">
+                            <h2>TRAILER</h2>
+                        </div>
+                        <div class="trailer-movies">
+                            <a href="#">
+                                <img src="assets/img/trailer.jpg" alt="">
+                            </a>
+                            <div class="trailer-play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                    <path d="M2 2L14 10L2 18V2Z" fill="#5436A9" stroke="#5436A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                    <div class="">
-                        
+                    <div class="actors">
+                        <div class="actors-title">
+                            <h2>CAST AND CREW INFO</h2>
+                        </div>
+                        <div class="actors-content">
+                            <a href="#" class="actors-item">
+                                <img src="assets/img/team/team1.jpg" alt="">
+                                <p>Shoojit Sircar</p>
+                                <span>Director</span>
+                            </a>
+                            <a href="#" class="actors-item">
+                                <img src="assets/img/team/team2.jpg" alt="">
+                                <p>Deepika Paduko...</p>
+                                <span>As Piku</span>
+                            </a>
+                            <a href="#" class="actors-item">
+                                <img src="assets/img/team/team3.jpg" alt="">
+                                <p>Amitabh Bacchan</p>
+                                <span>As Bhashkor Ba...</span>
+                            </a>
+                            <a href="#" class="actors-item">
+                                <img src="assets/img/team/team4.jpg" alt="">
+                                <p>Irrfan Khan</p>
+                                <span>As Rana</span>
+                            </a>
+                            <a href="#" class="actors-item">
+                                <img src="assets/img/team/team5.jpg" alt="">
+                                <p>Moushumi Chat...</p>
+                                <span>Choobhi Maasi</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="showmore">
+                <button type="button" class="showmore-btn">Show More <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+        </div>
+        <div class="twshow">
+            <div class="twshow-inner mt-50">
+                <div class="trailer">
+                    <div class="trailer-title">
+                        <h2>MORE LIKE THIS</h2>
+                    </div>
+                    <div class="trailer-movies-content">
+                        <div class="trailer-movies trailer-movies-show">
+                            <a href="#">
+                                <img src="assets/img/trailer/trailer1.jpg" alt="">
+                            </a>
+                            <div class="trailer-play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                    <path d="M2 2L14 10L2 18V2Z" fill="#5436A9" stroke="#5436A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trailer-movies trailer-movies-show">
+                            <a href="#">
+                                <img src="assets/img/trailer/trailer2.jpg" alt="">
+                            </a>
+                            <div class="trailer-play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                    <path d="M2 2L14 10L2 18V2Z" fill="#5436A9" stroke="#5436A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trailer-movies trailer-movies-show">
+                            <a href="#">
+                                <img src="assets/img/trailer/trailer3.jpg" alt="">
+                            </a>
+                            <div class="trailer-play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                    <path d="M2 2L14 10L2 18V2Z" fill="#5436A9" stroke="#5436A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="trailer-movies trailer-movies-show">
+                            <a href="#">
+                                <img src="assets/img/trailer/trailer4.jpg" alt="">
+                            </a>
+                            <div class="trailer-play">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">
+                                    <path d="M2 2L14 10L2 18V2Z" fill="#5436A9" stroke="#5436A9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

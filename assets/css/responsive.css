@@ -1,5 +1,5 @@
 /*
-    Serhan BakÄ±r
+    Serhan Bakır
     Junior Web Developer
 */
 
@@ -101,6 +101,22 @@
 
     .watch .watch-inner .watch-movies .watch-movies-inner {
         justify-content: center;
+    }
+
+    .twshow .twshow-inner .trailer .trailer-movies-content {
+        justify-content: center;
+    }
+
+    .twshow .twshow-inner .actors .actors-content .actors-item span {
+        font-size: 12px;
+    }
+
+    .twshow .twshow-inner .twshow-content {
+        justify-content: center;
+    }
+
+    .twshow .twshow-inner .actors .actors-content .actors-item {
+        width: 100%;
     }
 }
 
