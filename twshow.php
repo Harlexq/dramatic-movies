@@ -109,9 +109,6 @@
                     </div>
                 </div>
             </div>
-            <div class="showmore">
-                <button type="button" class="showmore-btn">Show More <i class="fa-solid fa-angle-down"></i></button>
-            </div>
         </div>
         <div class="twshow">
             <div class="twshow-inner mt-50">

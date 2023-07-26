@@ -635,10 +635,6 @@ body {
     background: #E43109;
 }
 
-.twshow {
-    position: relative;
-}
-
 .twshow .twshow-inner {
     margin: 25px 0;
 }
@@ -773,12 +769,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.twshow .showmore {
-    position: absolute;
-    top: 239px;
-    right: 260px;
 }
 
 .showmore .showmore-btn {
