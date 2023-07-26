@@ -95,7 +95,7 @@
                         </div>
                         <menu class="profile-content">
                             <nav class="profile-nav">
-                                <a href="#" class="profile-item">Profil Düzenle</a>
+                                <a href="profile.php" class="profile-item">Profil Düzenle</a>
                                 <a href="#" class="profile-item">Favoriler</a>
                                 <a href="#" class="profile-item">Arkadaşlar</a>
                                 <a href="#" class="profile-item">Yardım</a>
