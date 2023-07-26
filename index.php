@@ -26,7 +26,7 @@
                 <img src="assets/img/slider.png" alt="">
                 <p class="slider-desc">Ved and Tara fall in love while on a holiday in Corsica and decide to keep their real identities undisclosed. Tara returns to Delhi and meets a new Ved, who is trying to discover his true self.</p>
                 <span>GENRES</span>
-                <p>Romance, Drama</p>
+                <p>Action, Drama</p>
                 <div class="slider-btn">
                     <button type="button">WATCH <i class="fa-solid fa-play"></i></button>
                     <button type="button" class="slider-btn-gray">MY LIST <i class="fa-solid fa-plus"></i></button>
