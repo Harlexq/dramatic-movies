@@ -356,6 +356,11 @@ body {
     font-weight: 600;
 }
 
+.slider .slider-inner .slider-content .slider-btn {
+    display: flex;
+    align-items: center;
+}
+
 .slider .slider-inner .slider-content .slider-btn button {
     margin-top: 15px;
     border: none;
@@ -377,17 +382,27 @@ body {
     background: #6744c9;
 }
 
-.slider .slider-inner .slider-content .slider-btn button:last-child {
+.slider .slider-inner .slider-content .slider-btn button.slider-btn-gray {
     background: #5C5C5C;
-    transition: 0.3s;
 }
 
-.slider .slider-inner .slider-content .slider-btn button:last-child:hover {
+.slider .slider-inner .slider-content .slider-btn button.slider-btn-gray:hover {
     background: #777777;
 }
 
 .slider .slider-inner .slider-content .slider-btn button i {
     margin-left: 7px;
+}
+
+.slider .slider-inner .slider-content .slider-btn button.slider-btn-rounded {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #5C5C5C;
+}
+
+.slider .slider-inner .slider-content .slider-btn button.slider-btn-rounded:hover {
+    background: #777777;
 }
 
 .slider .slider-inner .slider-content .slider-info {
@@ -420,6 +435,15 @@ body {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 700;
+}
+
+.slider .slider-inner .slider-content .slider-genres {
+    margin-top: 25px;
+}
+
+.slider .slider-inner .slider-content .slider-genres .sub {
+    display: inline-block;
+    margin-top: 7px;
 }
 
 .watch .watch-inner {

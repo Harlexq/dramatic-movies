@@ -29,7 +29,7 @@
                 <p>Romance, Drama</p>
                 <div class="slider-btn">
                     <button type="button">WATCH <i class="fa-solid fa-play"></i></button>
-                    <button type="button">MY LIST <i class="fa-solid fa-plus"></i></button>
+                    <button type="button" class="slider-btn-gray">MY LIST <i class="fa-solid fa-plus"></i></button>
                 </div>
                 <div class="slider-info">
                     <img src="assets/img/imdb.png" alt="">
