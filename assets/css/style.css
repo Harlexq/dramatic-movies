@@ -1,5 +1,5 @@
 /*
-    Serhan BakÄ±r
+    Serhan BakÃ„Â±r
     Junior Web Developer
 */
 
@@ -799,7 +799,7 @@ body {
 
 .profile-page .profile-page-inner {
     display: flex;
-    column-gap: 10px;
+    gap: 10px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -809,6 +809,7 @@ body {
     background-color: #362f33;
     border-radius: 7px;
     overflow: hidden;
+    flex: 1 1 auto;
 }
 
 .profile-page .profile-page-inner .profile-page-info .profile-page-nav {
@@ -832,11 +833,8 @@ body {
     height: 510px;
     background-color: #585457;
     border-radius: 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
+    padding: 35px;
+    flex: 1 1 auto;
 }
 
 .profile-page .profile-page-inner .profile-page-intr-img {
@@ -881,38 +879,19 @@ body {
     margin-right: 4px;
 }
 
-.profile-page .profile-page-inner .profile-page-intr-email {
+.profile-page .profile-page-inner .profile-page-guard {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
+    padding: 35px;
+    gap: 20px;
 }
 
-.profile-page .profile-page-inner .profile-page-intr-password {
+.profile-page .profile-page-inner .profile-page-guard .input-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 25px;
-}
-
-.profile-page .profile-page-inner .profile-page-intr-email .email-input,
-.profile-page .profile-page-inner .profile-page-intr-password .password-input {
-    outline: none;
-    background-color: #eee;
-    border: none;
-    font-size: 14px;
-    color: #000;
-    padding: 10px;
-    width: 250px;
-    border-radius: 7px;
-}
-
-.profile-page .profile-page-inner .profile-page-intr-email .email-input::placeholder,
-.profile-page .profile-page-inner .profile-page-intr-password .password-input::placeholder {
-    color: #000;
-    font-size: 14px;
+    gap: 20px;
 }
 
 .footer {

@@ -32,7 +32,7 @@
                 <div class="profile-page-intr">
                     <div class="profile-page-intr-img" id="profile-page-intr-img">
                         <img class="profile-intr-img" id="profile-image" src="assets/img/SerhanBakir.jpg" alt="">
-                        <div class="file-input-content">
+                        <form class="file-input-content">
                             <input type="file" name="file-input" id="file-input" class="file-input" accept="image/jpeg, image/png, image/jpg, image/webp, image/gif">
                             <label class="file-label" for="file-input">
                                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="upload" class="svg-inline--fa fa-upload fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -40,16 +40,18 @@
                                 </svg>
                                 <span>Upload Photo</span>
                             </label>
+                        </form>
+                    </div>
+                    <form class="profile-page-guard">
+                        <div class="input-content">
+                            <input type="email" class="email-input" placeholder="Old E-Mail">
+                            <input type="email" class="email-input" placeholder="New E-Mail">
                         </div>
-                    </div>
-                    <div class="profile-page-intr-email" id="profile-page-intr-email">
-                        <input class="email-input" type="email" placeholder="Enter Your Old E-Mail Address">
-                        <input class="email-input" type="email" placeholder="Enter Your New E-Mail Address">
-                    </div>
-                    <div class="profile-page-intr-password" id="profile-page-intr-password">
-                        <input class="password-input" type="password" placeholder="Enter Your Old Password Address">
-                        <input class="password-input" type="password" placeholder="Enter Your New Password Address">
-                    </div>
+                        <div class="input-content">
+                            <input type="password" class="pass-input" placeholder="Old Password">
+                            <input type="password" class="pass-input" placeholder="New Password">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
