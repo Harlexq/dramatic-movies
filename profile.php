@@ -24,9 +24,14 @@
             <div class="profile-page-inner">
                 <menu class="profile-page-info">
                     <nav class="profile-page-nav">
-                        <a href="#" class="profile-page-item">Profil Resmini Güncelle</a>
-                        <a href="#" class="profile-page-item">E-Mail Adresini Güncelle</a>
-                        <a href="#" class="profile-page-item">Şifreni Güncelle</a>
+                        <button type="button" class="profile-page-item disabled">Personal Information</button>
+                        <button type="button" class="profile-page-item">Update Username</button>
+                        <button type="button" class="profile-page-item disabled">Security Settings</button>
+                        <button type="button" class="profile-page-item">Update Profile Picture</button>
+                        <button type="button" class="profile-page-item">Update E-Mail Address</button>
+                        <button type="button" class="profile-page-item">Update Password</button>
+                        <button type="button" class="profile-page-item disabled">Social Media</button>
+                        <button type="button" class="profile-page-item">Link Social Media Accounts</button>
                     </nav>
                 </menu>
                 <div class="profile-page-intr">
@@ -44,13 +49,16 @@
                     </div>
                     <form class="profile-page-guard">
                         <div class="input-content">
+                            <p>E-Mail</p>
                             <input type="email" class="email-input" placeholder="Old E-Mail">
                             <input type="email" class="email-input" placeholder="New E-Mail">
                         </div>
                         <div class="input-content">
+                            <p>Password</p>
                             <input type="password" class="pass-input" placeholder="Old Password">
                             <input type="password" class="pass-input" placeholder="New Password">
                         </div>
+                        <button type="button" class="input-save">Update Information</button>
                     </form>
                 </div>
             </div>
