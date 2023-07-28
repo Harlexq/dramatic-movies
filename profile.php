@@ -25,16 +25,29 @@
                 <menu class="profile-page-info">
                     <nav class="profile-page-nav">
                         <button type="button" class="profile-page-item disabled">Personal Information</button>
-                        <button type="button" class="profile-page-item">Update Username</button>
+                        <button onclick="UsernameUdate()" type="button" class="profile-page-item">Update Username</button>
+                        <button onclick="PictureUpdate()" type="button" class="profile-page-item">Update Profile Picture</button>
                         <button type="button" class="profile-page-item disabled">Security Settings</button>
-                        <button type="button" class="profile-page-item">Update Profile Picture</button>
-                        <button type="button" class="profile-page-item">Update E-Mail Address</button>
-                        <button type="button" class="profile-page-item">Update Password</button>
+                        <button onclick="EmailUdate()" type="button" class="profile-page-item">Update E-Mail Address</button>
+                        <button onclick="PasswordUdate()" type="button" class="profile-page-item">Update Password</button>
                         <button type="button" class="profile-page-item disabled">Social Media</button>
-                        <button type="button" class="profile-page-item">Link Social Media Accounts</button>
+                        <button onclick="SocialUdate()" type="button" class="profile-page-item">Link Social Media Accounts</button>
                     </nav>
                 </menu>
-                <div class="profile-page-intr">
+                <div class="profile-page-intr" id="updateUsername" style="display: block;">
+                    <h2>Update Username</h2>
+                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                        <div class="profile-page-intr-input">
+                            <p>Harlex</p>
+                            <input type="text" placeholder="New Username">
+                        </div>
+                        <div class="profile-page-btn">
+                            <button type="button" class="profile-page-save">Save</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="profile-page-intr" id="updateProfilePicture">
+                    <h2>Update Profile Picture</h2>
                     <div class="profile-page-intr-img" id="profile-page-intr-img">
                         <img class="profile-intr-img" id="profile-image" src="assets/img/SerhanBakir.jpg" alt="">
                         <form class="file-input-content">
@@ -47,18 +60,66 @@
                             </label>
                         </form>
                     </div>
-                    <form class="profile-page-guard">
-                        <div class="input-content">
-                            <p>E-Mail</p>
-                            <input type="email" class="email-input" placeholder="Old E-Mail">
-                            <input type="email" class="email-input" placeholder="New E-Mail">
+                    <div class="profile-page-btn">
+                        <button type="button" class="profile-page-save">Save</button>
+                    </div>
+                </div>
+                <div class="profile-page-intr" id="updateEmail">
+                    <h2>Update E-Mail Address</h2>
+                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                        <div class="profile-page-intr-input flex-direction">
+                            <input type="email" placeholder="Old E-Mail Address">
+                            <input type="email" placeholder="New E-Mail Address">
                         </div>
-                        <div class="input-content">
-                            <p>Password</p>
-                            <input type="password" class="pass-input" placeholder="Old Password">
-                            <input type="password" class="pass-input" placeholder="New Password">
+                        <div class="profile-page-btn">
+                            <button type="button" class="profile-page-save">Save</button>
                         </div>
-                        <button type="button" class="input-save">Update Information</button>
+                    </form>
+                </div>
+                <div class="profile-page-intr" id="updatePassword">
+                    <h2>Update Password</h2>
+                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                        <div class="profile-page-intr-input flex-direction">
+                            <input type="password" placeholder="New Password">
+                            <input type="password" placeholder="New Password">
+                        </div>
+                        <div class="profile-page-btn">
+                            <button type="button" class="profile-page-save">Save</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="profile-page-intr" id="updateSocial">
+                    <h2>Link Social Media Accounts</h2>
+                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                        <div class="profile-page-intr-input flex-direction">
+                            <div class="profile-page-intr-social">
+                                <p>Google</p>
+                                <input type="text" placeholder="Google Profile Link">
+                            </div>
+                            <div class="profile-page-intr-social">
+                                <p>Facebook</p>
+                                <input type="text" placeholder="Facebook Profile Link">
+                            </div>
+                            <div class="profile-page-intr-social">
+                                <p>Twitter</p>
+                                <input type="text" placeholder="Twitter Profile Link">
+                            </div>
+                            <div class="profile-page-intr-social">
+                                <p>Linkedin</p>
+                                <input type="text" placeholder="Linkedin Profile Link">
+                            </div>
+                            <div class="profile-page-intr-social">
+                                <p>Github</p>
+                                <input type="text" placeholder="Github Profile Link">
+                            </div>
+                            <div class="profile-page-intr-social">
+                                <p>Reddit</p>
+                                <input type="text" placeholder="Facebook Profile Link">
+                            </div>
+                        </div>
+                        <div class="profile-page-btn">
+                            <button type="button" class="profile-page-save">Save</button>
+                        </div>
                     </form>
                 </div>
             </div>

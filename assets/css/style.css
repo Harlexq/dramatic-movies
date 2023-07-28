@@ -1,5 +1,5 @@
 /*
-    Serhan Bakır
+    Serhan BakÄ±r
     Junior Web Developer
 */
 
@@ -841,8 +841,40 @@ body {
     width: 79%;
     background-color: #585457;
     border-radius: 7px;
-    padding: 35px;
+    padding: 25px;
     flex: 1 1 auto;
+    display: none;
+}
+
+.profile-page .profile-page-inner .profile-page-intr h2 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.profile-page .profile-page-inner .profile-page-intr .profile-page-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-page .profile-page-inner .profile-page-intr .profile-page-btn .profile-page-save {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 25px;
+    background-color: #4245a8;
+    border: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.profile-page .profile-page-inner .profile-page-intr .profile-page-btn .profile-page-save:hover {
+    background-color: #5357be;
 }
 
 .profile-page .profile-page-inner .profile-page-intr-img {
@@ -891,63 +923,39 @@ body {
     margin-right: 4px;
 }
 
-.profile-page .profile-page-inner .profile-page-guard {
+.profile-page .profile-page-inner .profile-page-intr-input-content .profile-page-intr-input {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 35px;
-    gap: 20px;
-}
-
-.profile-page .profile-page-inner .profile-page-guard .input-content {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
-.profile-page .profile-page-inner .profile-page-guard .input-content p {
+.profile-page .profile-page-inner .profile-page-intr-input-content .flex-direction {
+    flex-direction: column;
+}
+
+.profile-page .profile-page-inner .profile-page-intr-input-content .profile-page-intr-input p {
     color: #fff;
-}
-
-.profile-page .profile-page-inner .profile-page-guard .input-content input {
-    width: 280px;
-    height: 35px;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    padding: 7px;
-    border-radius: 7px;
-    color: #4245a8;
-    border: 1px solid #4245a8;
-}
-
-.profile-page .profile-page-inner .profile-page-guard .input-content input::placeholder {
-    font-size: 18px;
-    color: #4245a8;
-}
-
-.profile-page .profile-page-inner .profile-page-guard .input-content input:focus {
-    outline: 2px solid #4245a8;
-    border: 1px solid #4245a8;
-}
-
-.profile-page .profile-page-inner .profile-page-guard .input-save {
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    border-radius: 4px;
     font-size: 14px;
-    font-weight: 600;
-    color: #fff;
-    padding: 10px 12px;
-    background-color: #4245a8;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-    transition: 0.3s;
+    font-weight: bold;
 }
 
-.profile-page .profile-page-inner .profile-page-guard .input-save:hover {
-    background-color: #5357be;
+.profile-page .profile-page-inner .profile-page-intr-input-content .profile-page-intr-input input {
+    width: 280px;
+    height: 25px;
+    font-size: 14px;
+    border: 1px solid #4245a8;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.profile-page .profile-page-inner .profile-page-intr-input-content .profile-page-intr-input input::placeholder {
+    color: #000;
+    font-size: 14px;
+}
+
+.profile-page .profile-page-inner .profile-page-intr-input-content .profile-page-intr-input input:focus {
+    outline: 2px solid #4245a8;
 }
 
 .footer {
