@@ -1,5 +1,5 @@
 /*
-    Serhan BakÄ±r
+    Serhan BakÃ„Â±r
     Junior Web Developer
 */
 
@@ -841,9 +841,13 @@ body {
     width: 79%;
     background-color: #585457;
     border-radius: 7px;
-    padding: 25px;
+    padding: 15px 25px 25px 25px;
     flex: 1 1 auto;
     display: none;
+}
+
+.profile-page .profile-page-inner .profile-page-intr#updateUsername {
+    display: block;
 }
 
 .profile-page .profile-page-inner .profile-page-intr h2 {

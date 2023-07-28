@@ -25,18 +25,18 @@
                 <menu class="profile-page-info">
                     <nav class="profile-page-nav">
                         <button type="button" class="profile-page-item disabled">Personal Information</button>
-                        <button onclick="UsernameUdate()" type="button" class="profile-page-item">Update Username</button>
+                        <button onclick="UsernameUpdate()" type="button" class="profile-page-item">Update Username</button>
                         <button onclick="PictureUpdate()" type="button" class="profile-page-item">Update Profile Picture</button>
                         <button type="button" class="profile-page-item disabled">Security Settings</button>
-                        <button onclick="EmailUdate()" type="button" class="profile-page-item">Update E-Mail Address</button>
-                        <button onclick="PasswordUdate()" type="button" class="profile-page-item">Update Password</button>
+                        <button onclick="EmailUpdate()" type="button" class="profile-page-item">Update E-Mail Address</button>
+                        <button onclick="PasswordUpdate()" type="button" class="profile-page-item">Update Password</button>
                         <button type="button" class="profile-page-item disabled">Social Media</button>
-                        <button onclick="SocialUdate()" type="button" class="profile-page-item">Link Social Media Accounts</button>
+                        <button onclick="SocialUpdate()" type="button" class="profile-page-item">Link Social Media Accounts</button>
                     </nav>
                 </menu>
-                <div class="profile-page-intr" id="updateUsername" style="display: block;">
+                <div class="profile-page-intr" id="updateUsername">
                     <h2>Update Username</h2>
-                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                    <form class="profile-page-intr-input-content">
                         <div class="profile-page-intr-input">
                             <p>Harlex</p>
                             <input type="text" placeholder="New Username">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="profile-page-intr" id="updateProfilePicture">
                     <h2>Update Profile Picture</h2>
-                    <div class="profile-page-intr-img" id="profile-page-intr-img">
+                    <div class="profile-page-intr-img">
                         <img class="profile-intr-img" id="profile-image" src="assets/img/SerhanBakir.jpg" alt="">
                         <form class="file-input-content">
                             <input type="file" name="file-input" id="file-input" class="file-input" accept="image/jpeg, image/png, image/jpg, image/webp, image/gif">
@@ -66,10 +66,11 @@
                 </div>
                 <div class="profile-page-intr" id="updateEmail">
                     <h2>Update E-Mail Address</h2>
-                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                    <form class="profile-page-intr-input-content">
                         <div class="profile-page-intr-input flex-direction">
-                            <input type="email" placeholder="Old E-Mail Address">
+                            <input type="email" placeholder="Current Email Address">
                             <input type="email" placeholder="New E-Mail Address">
+                            <input type="email" placeholder="Confirm New Email Address">
                         </div>
                         <div class="profile-page-btn">
                             <button type="button" class="profile-page-save">Save</button>
@@ -78,10 +79,11 @@
                 </div>
                 <div class="profile-page-intr" id="updatePassword">
                     <h2>Update Password</h2>
-                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                    <form class="profile-page-intr-input-content">
                         <div class="profile-page-intr-input flex-direction">
+                            <input type="password" placeholder="Current Password">
                             <input type="password" placeholder="New Password">
-                            <input type="password" placeholder="New Password">
+                            <input type="password" placeholder="Confirm New Password">
                         </div>
                         <div class="profile-page-btn">
                             <button type="button" class="profile-page-save">Save</button>
@@ -90,7 +92,7 @@
                 </div>
                 <div class="profile-page-intr" id="updateSocial">
                     <h2>Link Social Media Accounts</h2>
-                    <form class="profile-page-intr-input-content" id="profile-page-intr-img">
+                    <form class="profile-page-intr-input-content">
                         <div class="profile-page-intr-input flex-direction">
                             <div class="profile-page-intr-social">
                                 <p>Google</p>
