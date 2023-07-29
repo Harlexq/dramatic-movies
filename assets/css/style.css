@@ -33,6 +33,7 @@ body {
 
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 999;
 }
@@ -537,6 +538,10 @@ body {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.watch .watch-inner .watch-movies .watch-movies-inner.favorites {
+    justify-content: space-evenly;
 }
 
 .watch .watch-inner .watch-movies .watch-movies-inner .watch-movies-item {

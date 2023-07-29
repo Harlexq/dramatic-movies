@@ -78,7 +78,7 @@
                             </div>
                         </div>
                         <footer class="bell-footer">
-                            <p>Tümünü Okundu Olarak İşaretle</p>
+                            <p>Mark All as Read</p>
                         </footer>
                     </div>
                 </div>
@@ -95,18 +95,18 @@
                         </div>
                         <menu class="profile-content">
                             <nav class="profile-nav">
-                                <a href="profile.php" class="profile-item">Profil Düzenle</a>
-                                <a href="#" class="profile-item">Favoriler</a>
-                                <a href="#" class="profile-item">Koleksiyonlar</a>
-                                <a href="#" class="profile-item">Arkadaşlar</a>
-                                <a href="#" class="profile-item">Yardım</a>
+                                <a href="profile.php" class="profile-item">Edit Profile</a>
+                                <a href="favorites.php" class="profile-item">Favorites</a>
+                                <a href="#" class="profile-item">Collections</a>
+                                <a href="#" class="profile-item">Friends</a>
+                                <a href="#" class="profile-item">Help</a>
                             </nav>
                         </menu>
                         <footer class="profile-footer">
-                            <a href="#" class="profile-footer-item">Hakkında</a>
-                            <a href="#" class="profile-footer-item">Uygulamalar</a>
-                            <a href="#" class="profile-footer-item">Hukuki</a>
-                            <a href="#" class="profile-footer-item">Gizlilik</a>
+                            <a href="#" class="profile-footer-item">About</a>
+                            <a href="#" class="profile-footer-item">Applications</a>
+                            <a href="#" class="profile-footer-item">Legal</a>
+                            <a href="#" class="profile-footer-item">Security</a>
                         </footer>
                     </div>
                 </div>
