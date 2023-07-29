@@ -19,7 +19,6 @@
                     <div class="bell-inner">
                         <div class="bell-title">
                             <p>Harlex</p>
-                            <i class="fa-solid fa-xmark"></i>
                         </div>
                         <div class="bell-content">
                             <div class="bell">
@@ -97,7 +96,7 @@
                             <nav class="profile-nav">
                                 <a href="profile.php" class="profile-item">Edit Profile</a>
                                 <a href="favorites.php" class="profile-item">Favorites</a>
-                                <a href="#" class="profile-item">Collections</a>
+                                <a href="collections.php" class="profile-item">Collections</a>
                                 <a href="#" class="profile-item">Friends</a>
                                 <a href="#" class="profile-item">Help</a>
                             </nav>

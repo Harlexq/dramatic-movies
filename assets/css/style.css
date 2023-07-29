@@ -116,7 +116,6 @@ body {
 
 .header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     height: 40px;
@@ -126,12 +125,6 @@ body {
 .header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title p {
     color: #fff;
     font-weight: 600;
-}
-
-.header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-title i {
-    font-size: 21px;
-    color: #fff;
-    cursor: pointer;
 }
 
 .header .header-inner .header-item-two .navbar .bell-body .bell-inner .bell-content {
@@ -445,6 +438,10 @@ body {
 .slider .slider-inner .slider-content .slider-genres .sub {
     display: inline-block;
     margin-top: 7px;
+}
+
+.watch-p5 {
+    margin: 140px 0 70px 0;
 }
 
 .watch .watch-inner {
