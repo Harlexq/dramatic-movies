@@ -19,7 +19,30 @@
     include('pages/common/rectangle.php');
     ?>
 
-    
+    <div class="container">
+        <div class="collection">
+            <div class="collection-content">
+                <a href="#" class="collection-item">
+                    <div class="collection-box"></div>
+                    <div class="collection-title">
+                        <p>Sevilenler</p>
+                    </div>
+                </a>
+                <a href="#" class="collection-item">
+                    <div class="collection-box"></div>
+                    <div class="collection-title">
+                        <p>Özlenenler</p>
+                    </div>
+                </a>
+                <a href="#" class="collection-item">
+                    <div class="collection-box"></div>
+                    <div class="collection-title">
+                        <p>Yaşananlar</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <?php
     include('pages/common/footer.php');

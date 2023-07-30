@@ -964,6 +964,46 @@ body {
     outline: 2px solid #4245a8;
 }
 
+.collection {
+    margin: 200px 0 100px 0;
+}
+
+.collection .collection-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.collection .collection-content .collection-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collection .collection-content .collection-item .collection-box {
+    background-color: #eee;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.collection .collection-content .collection-item .collection-box::before {
+    content: "";
+    border-radius: 10px 10px 0 0;
+    background-color: #eee;
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: -26px;
+    right: 0;
+}
+
+.collection .collection-content .collection-item .collection-title p {
+    color: #fff;
+}
+
 .footer {
     background: rgba(102, 80, 165, 0.75);
 }
